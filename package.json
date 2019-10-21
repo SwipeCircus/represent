@@ -1,0 +1,28 @@
+{
+  "name": "represent",
+  "description": "Present your UX/UI Designs lightning fast on client's devices without leaving Sketch. 📲",
+  "author": "SwipeCircus <hi@swipecircus.com>",
+  "homepage": "https://getrepresent.com",
+  "repository": "https://github.com/SwipeCircus/represent",
+  "version": "1.2.1",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "📲 represent",
+    "manifest": "src/manifest.json",
+    "main": "represent.sketchplugin"
+  },
+  "scripts": {
+    "build": "skpm-build && cp icon.png represent.sketchplugin/Contents/Resources",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.4"
+  },
+  "dependencies": {
+    "sketch-module-web-view": "^3.2.2"
+  }
+}

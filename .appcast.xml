@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Represent Sketch Plugin</title>
+    <link>https://getrepresent.com/</link>
+    <description>Present your UX/UI Designs lightning fast on client's devices without leaving Sketch. 📲</description>
+    <language>en</language>
+    <item>
+      <title>💻 You wanted it. Now you get it. represent supports Webdesign Sessions incl. Retina Support. 💥</title>
+      <enclosure url="https://session.getrepresent.com/represent.sketchplugin-v1.2.1.zip" sparkle:version="1.2.1"/>
+    </item>
+    <item>
+      <enclosure url="https://session.getrepresent.com/represent.sketchplugin-v1.2.0.zip" sparkle:version="1.2.0"/>
+    </item>
+    <item>
+      <enclosure url="https://session.getrepresent.com/represent.sketchplugin-1.1.1.zip" sparkle:version="1.1.1"/>
+    </item>
+    <item>
+      <enclosure url="https://session.getrepresent.com/represent.sketchplugin-1.1.zip" sparkle:version="1.1"/>
+    </item>
+    <item>
+      <enclosure url="https://session.getrepresent.com/represent.sketchplugin-1.0.zip" sparkle:version="1.0"/>
+    </item>
+  </channel>
+</rss>

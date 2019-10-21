@@ -1,0 +1,73 @@
+{
+  "identifier": "com.bettysteger.swipecircus.mobilepreview",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "scope": "document",
+  "appcast": "https://session.getrepresent.com/.appcast.xml",
+  "commands": [
+    {
+      "script": "sessions.js",
+      "name": "Create New Session",
+      "identifier": "createsession",
+      "shortcut": "ctrl cmd →",
+      "description": "Start a Design Presentation 📲"
+    },
+    {
+      "script": "sessions-delete.js",
+      "name": "Delete & close session",
+      "identifier": "deletesession"
+    },
+    {
+      "script": "shared.js",
+      "name": "Get a License Key",
+      "identifier": "subscribe",
+      "handler": "openSubscribe",
+      "description": "Buy represent, now"
+    },
+    {
+      "script": "enter-license.js",
+      "name": "Enter a License Key",
+      "identifier": "enterlicense",
+      "description": "Unchain your Team, your Clients and your Design"
+    },
+    {
+      "script": "represent.js",
+      "name": "Selection Changed",
+      "identifier": "selection-changed",
+      "handlers": {
+        "actions": {
+          "SelectionChanged.finish": "onSelectionChanged"
+        }
+      }
+    },
+    {
+      "script": "shared.js",
+      "name": "Send Feedback",
+      "identifier": "feedback",
+      "handler": "openFeedback",
+      "description": "Let’s improve represent together. Send us your ideas"
+    },
+    {
+      "script": "shared.js",
+      "name": "Create account",
+      "identifier": "createaccount",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartup",
+          "Shutdown": "onShutdown"
+        }
+      }
+    }
+  ],
+  "menu": {
+    "items": [
+      "createsession",
+      "-",
+      "subscribe",
+      "enterlicense",
+      "-",
+      "feedback"
+    ]
+  }
+}

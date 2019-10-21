@@ -1,0 +1,4 @@
+node_modules
+represent.sketchplugin
+src
+!src/manifest.json
