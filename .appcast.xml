@@ -6,6 +6,7 @@
     <description>Present your UX/UI Designs lightning fast on client's devices without leaving Sketch. 📲</description>
     <language>en</language>
     <item>
+      <title>Install via Runner 🏃</title>
       <enclosure url="https://github.com/SwipeCircus/represent/releases/download/v1.3.0/represent.sketchplugin.zip" sparkle:version="1.3.0"/>
     </item>
     <item>
