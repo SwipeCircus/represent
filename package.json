@@ -20,9 +20,9 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.7.4"
+    "@skpm/builder": "^0.7.5"
   },
   "dependencies": {
-    "sketch-module-web-view": "^3.2.2"
+    "sketch-module-web-view": "^3.4.1"
   }
 }
